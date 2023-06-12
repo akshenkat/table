@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+th {
+    background-color: aquamarine;
+    padding: 10px;
+    
+}
+
+td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: aquamarine;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+thead {    
+    position: sticky;
+    top: 0;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(183, 187, 221);
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+thead th:first-child {
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:6;
+}
